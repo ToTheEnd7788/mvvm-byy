@@ -2,4 +2,4 @@
 A small demo like vue
 
 
-## **Some Problems is exsis, maybe need to redesign...**
+## **Some Problems is exsisted, maybe need to redesign...**
