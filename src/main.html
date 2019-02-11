@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MVVM</title>
+</head>
+<body>
+	<div id="app">
+		<input
+			b-model="name"
+			type="text"
+			placeholder="Please input the text...">
+
+			{{ dependencies.server.port }}
+
+		<p :title="dependencies.server.frame">
+			<a
+				href="javascript:;"
+				b-show="showLink"
+				:title="version">
+				{{version}}
+			</a>
+		</p>
+
+
+    <button
+	  @click="changePort">
+	  {{btnName}}
+	</button>
+	</div>
+	<script src="/dist/index.js"></script>
+</body>
+</html>
